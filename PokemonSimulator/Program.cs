@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Init();
+        }
+
+        static void Init()
+        {
+            var flamethrower = new Attack("Flamethrower", ElementType.Fire, 12);
+            var ember = new Attack("Ember", ElementType.Fire, 6);
         }
     }
 }
